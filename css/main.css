@@ -300,8 +300,7 @@ input[type="submit"]:hover {
   }
 
   h1.lg-heading{
-    margin-top: 5rem;
-    padding-top: 5rem;
+    /* margin-top: 3rem; */
     font-size: 2rem;
   }
 
