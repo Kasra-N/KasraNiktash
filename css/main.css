@@ -299,16 +299,15 @@ input[type="submit"]:hover {
     overflow-x: hidden;
   }
 
+  
+
   h1.lg-heading{
     /* margin-top: 3rem; */
     font-size: 2rem;
   }
 
 
-  h1.sm-heading,
-  h2.sm-heading,
-  h3.sm-heading {
-    margin-bottom: 2rem;
+  h1.sm-heading {
     font-size: 1rem;
   }
 
@@ -413,9 +412,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 500px) {
-  main {
-    padding: 2rem;
-  }
+
   .projects {
     grid-template-columns: 1fr;
   }
