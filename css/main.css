@@ -105,7 +105,6 @@ body {
 
 h1.lg-heading,
 h2.lg-heading {
-  margin-top: 10rem;
   padding-top: 10rem;
   font-size: 4rem;
   font-weight: 400;
@@ -160,7 +159,7 @@ main#home {
 }
 
 main#home h1 {
-  margin-top: 20vh;
+  margin-top: 10rem;
 }
 
 .social .icons {
