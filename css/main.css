@@ -8,20 +8,25 @@
 body {
   background: rgb(0, 0, 0);
   color: #fff;
-  height: 100%;
   text-shadow: 2px 2px 10px #000;
 }
 
 .wrapper {
   position: relative;
-  min-height: 100vh;
+  min-height: 92vh;
 }
 
 /*NEW .nav-links START*/
+nav{
+  display: flex;
+  position: relative;
+}
 
 .nav-links {
+  width: 30%;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 8vh;
   text-align: center;
@@ -30,12 +35,11 @@ body {
 
 .nav-links a {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #fff;
   font-size: 1.4rem;
   padding: 10px 10px;
   position: relative;
-  width: 100%;
 }
 
 /* Top and Bottom borders go out */
@@ -50,6 +54,7 @@ body {
   opacity: 0;
   transition: all 0.3s;
 }
+
 
 .nav-links a:before {
   top: 0px;
@@ -105,16 +110,13 @@ body {
 
 h1.lg-heading,
 h2.lg-heading {
-  padding-top: 5rem;
   font-size: 2rem;
   font-weight: 400;
 }
 
 h1.sm-heading,
-h2.sm-heading,
-h3.sm-heading {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+h2.sm-heading{
+  font-size: 1rem;
 }
 
 h1 {
@@ -127,8 +129,8 @@ a {
 }
 
 header {
-  position: fixed;
-  z-index: 2;
+  position: relative;
+  /* z-index: 2; */
   width: 100%;
 }
 
@@ -154,12 +156,13 @@ main .icons a:hover {
   transition: all 0.5s ease-out;
 }
 
-main#home {
+/* #home {
   overflow: hidden;
-}
+} */
 
-main#home h1 {
-  margin-top: 8rem;
+#home h1 {
+  font-size: 3rem;
+  margin-top: 10rem;
 }
 
 .social .icons {
@@ -299,10 +302,11 @@ input[type="submit"]:hover {
     overflow-x: hidden;
   }
 
-  
+  #home h1{
+    margin-top: 2.91rem;
+  }
 
   h1.lg-heading{
-    /* margin-top: 3rem; */
     font-size: 2rem;
   }
 
@@ -312,11 +316,12 @@ input[type="submit"]:hover {
   }
 
   .nav-links a {
-    font-size: 1rem;
+    font-size: 1.5rem;
+ 
   }
   .nav-links {
-    position: absolute;
-    width: 100%;
+    height: 1rem;
+    position: relative;
     top: 8vh;
     display: flex;
     flex-direction: column;
@@ -327,17 +332,21 @@ input[type="submit"]:hover {
   }
 
   .nav-links li {
+
     opacity: 0;
   }
 
   .burger {
+    top: 10px;
     z-index: 1500;
     display: block;
     margin: 1rem;
     cursor: pointer;
   }
 
+
   .nav-active {
+    height: 10rem;
     transform: translateY(-4rem);
     opacity: 1;
   }
