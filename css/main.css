@@ -17,7 +17,7 @@ body {
 }
 
 /*NEW .nav-links START*/
-nav{
+nav {
   display: flex;
   position: relative;
 }
@@ -54,7 +54,6 @@ nav{
   opacity: 0;
   transition: all 0.3s;
 }
-
 
 .nav-links a:before {
   top: 0px;
@@ -95,7 +94,7 @@ nav{
   margin: 0;
   padding: 0;
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 .type {
@@ -115,7 +114,7 @@ h2.lg-heading {
 }
 
 h1.sm-heading,
-h2.sm-heading{
+h2.sm-heading {
   font-size: 1rem;
 }
 
@@ -171,23 +170,36 @@ main .icons a:hover {
   text-align: center;
 }
 
-.about-info {
+/* .about-info {
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: "bioimage bio bio";
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); 
+} */
+
+.techs {
+  padding-top: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
 }
 
-.about-info .bio-image {
-  border-radius: 50%;
+.techs h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .about-info .bio {
-  grid-area: bio;
-  font-size: 1.5rem;
+  width: 70%;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 .projects {
+  margin-top: 2rem;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
@@ -285,7 +297,7 @@ input[type="submit"]:hover {
   clear: both;
 }
 
-.container h2{
+.container h2 {
   font-size: 1rem;
 }
 
@@ -302,14 +314,13 @@ input[type="submit"]:hover {
     overflow-x: hidden;
   }
 
-  #home h1{
+  #home h1 {
     margin-top: 2.91rem;
   }
 
-  h1.lg-heading{
+  h1.lg-heading {
     font-size: 2rem;
   }
-
 
   h1.sm-heading {
     font-size: 1rem;
@@ -317,7 +328,6 @@ input[type="submit"]:hover {
 
   .nav-links a {
     font-size: 1.5rem;
- 
   }
   .nav-links {
     z-index: 1000;
@@ -334,18 +344,16 @@ input[type="submit"]:hover {
   }
 
   .nav-links li {
-
     opacity: 0;
   }
 
   .burger {
     top: 10px;
-    left: 10px;
+    left: 20px;
     z-index: 1500;
     display: block;
     cursor: pointer;
   }
-
 
   .nav-active {
     height: 10rem;
@@ -383,8 +391,6 @@ input[type="submit"]:hover {
     transform: translateY(0px);
   }
 
-  /*Burger Hover effect END*/
-
   @keyframes navLinkFade {
     from {
       opacity: 0;
@@ -394,6 +400,13 @@ input[type="submit"]:hover {
       opacity: 1;
       transform: translateX(0px);
     }
+  }
+  /*Burger Hover effect END*/
+
+  .about-info .bio {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -412,18 +425,12 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 900px) {
-  .about-info {
-    grid-template-areas: "img" "bio";
-    grid-template-columns: 1fr;
-  }
-
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 500px) {
-
   .projects {
     grid-template-columns: 1fr;
   }

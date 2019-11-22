@@ -9,10 +9,14 @@ onload = function() {
       "PHP",
       "Node.js",
       ".Net",
+      "Android",
+      "iOs",
       "Java",
       "Laravel",
       "Angular",
-      "React"
+      "React",
+      "Git",
+      "Github"
     ],
     typeSpeed: 120,
     backSpeed: 60,
