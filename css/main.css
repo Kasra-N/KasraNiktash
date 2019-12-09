@@ -6,7 +6,6 @@
 }
 
 body {
-  padding: 1rem;
   background: rgb(0, 0, 0);
   color: #fff;
   text-shadow: 2px 2px 10px #000;
@@ -17,6 +16,7 @@ body {
 }
 /*NEW .nav-links START*/
 nav {
+  margin-top: 2.5rem;
   display: flex;
   position: relative;
 }
@@ -259,7 +259,7 @@ main .icons a:hover {
     opacity: 0;
   }
   .burger {
-    top: 10px;
+    top: 1px;
     left: 20px;
     z-index: 1500;
     display: block;
