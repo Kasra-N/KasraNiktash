@@ -10,7 +10,7 @@ onload = function() {
       "Node.js",
       ".Net",
       "Android",
-      "iOs",
+      "iOS",
       "Java",
       "Laravel",
       "Angular",
