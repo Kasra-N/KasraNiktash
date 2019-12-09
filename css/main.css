@@ -48,7 +48,7 @@ nav {
   background: #fff;
   content: "";
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .nav-links a:before {
@@ -125,7 +125,7 @@ main .icons a {
 }
 main .icons a:hover {
   color: #b90202;
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease;
 }
 #home h1 {
   font-size: 3rem;
@@ -166,6 +166,7 @@ main .icons a:hover {
 }
 .projects img {
   width: 100%;
+  box-shadow: 2px 2px 20px #000;
 }
 .container {
   position: relative;
@@ -209,7 +210,7 @@ main .icons a:hover {
   border: 1px #fff solid;
   padding: 1.5rem 2.5rem;
   margin-bottom: 1rem;
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease;
   border-radius: 8px;
 }
 .boxes div:hover {
@@ -256,7 +257,7 @@ main .icons a:hover {
     margin-bottom: 1rem;
     background-color: none;
     transform: translateY(-20rem);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.5s ease;
   }
   .nav-links li {
     opacity: 0;
@@ -283,7 +284,7 @@ main .icons a:hover {
     background: #fff;
     content: "";
     opacity: 0;
-    transition: all 0.3s;
+    transition: all 0.5s;
   }
   .burger:before {
     top: 0px;
