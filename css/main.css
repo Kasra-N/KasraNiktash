@@ -74,14 +74,13 @@ nav {
 /*Burger END*/
 /*Type Writer START*/
 .banner-area h2 {
-  position: absolute;
-  top: 80%;
+  position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  margin-top: 8rem;
   color: rgb(255, 255, 255);
   font-size: 2.5rem;
   font-weight: 300;
@@ -263,9 +262,9 @@ main .icons a:hover {
     opacity: 0;
   }
   .burger {
-    top: 1px;
+    top: 0;
     left: 20px;
-    z-index: 1500;
+    /* z-index: 1500; */
     display: block;
     cursor: pointer;
   }
