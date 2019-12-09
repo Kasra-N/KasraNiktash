@@ -207,7 +207,7 @@ main .icons a:hover {
 
 .projects img {
   width: 100%;
-  border: 3px #fff solid;
+  /* border: 3px #fff solid; */
 }
 
 .container {
