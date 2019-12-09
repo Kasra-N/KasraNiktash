@@ -234,7 +234,7 @@ main .icons a:hover {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -309,7 +309,7 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
   border-radius: 8px;
-  width: 10rem;
+  width: 100%;
 }
 
 input[type="submit"]:hover {
@@ -329,10 +329,6 @@ input[type="submit"]:hover {
   content: "";
   display: table;
   clear: both;
-}
-
-.container h2 {
-  font-size: 1rem;
 }
 
 @media screen and (max-width: 600px) {
