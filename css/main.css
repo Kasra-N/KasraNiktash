@@ -37,7 +37,7 @@ nav {
   display: flex;
   justify-content: space-between;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding: 10px 10px;
   position: relative;
 }
@@ -94,7 +94,7 @@ nav {
   margin: 0;
   padding: 0;
   color: rgb(255, 255, 255);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 .type {
@@ -109,13 +109,13 @@ body {
 
 h1.lg-heading,
 h2.lg-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
 h1.sm-heading,
 h2.sm-heading {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 h1 {
@@ -220,7 +220,7 @@ main .icons a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #525252;
+  background-color: #272727;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -447,24 +447,18 @@ input[type="submit"]:hover {
 
 @media screen and (min-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .projects {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 769px) {
   .projects {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
