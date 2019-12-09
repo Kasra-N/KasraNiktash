@@ -10,6 +10,17 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC&display=swap" rel="stylesheet">
   <title>Kasra Niktash</title>
+<!--Use description meta tag, if non-empty, in place of snippet-->
+    <xsl:choose>
+      <xsl:when test="MT/@N='description' and MT/@V!=''">
+        <xsl:value-of select="MT[@N = 'description']/@V"/>
+      </xsl:when>
+      <xsl:otherwise>
+          <xsl:call-template name="reformat_keyword">
+            <xsl:with-param name="orig_string" select="S"/>
+          </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
 </head>
 <body>
   <header>
