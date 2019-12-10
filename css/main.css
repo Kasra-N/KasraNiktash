@@ -223,7 +223,7 @@ main .icons a:hover {
   color: #000;
 }
 #main-footer {
-  background-color: rgb(37, 37, 37);
+  background-color: rgba(37, 37, 37, 0.116);
   position: relative;
   bottom: 0;
   width: 100%;
