@@ -42,41 +42,61 @@
           Contact Me
         </h1>
         <div class="contact-container">
-<form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-action="https://script.google.com/macros/s/AKfycbycHo39GccdIy-2HmU05SdYV5fLl4otVmfdSPnSqFtc1_D_DUM/exec">
- <div class="form-elements">
+          <form
+            class="gform pure-form pure-form-stacked"
+            method="POST"
+            data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbycHo39GccdIy-2HmU05SdYV5fLl4otVmfdSPnSqFtc1_D_DUM/exec"
+          >
+            <div class="form-elements">
+              <input id="name" name="name" placeholder="Your Name..." />
+              <input
+                id="email"
+                name="email"
+                type="email"
+                value=""
+                required
+                placeholder="Your Email..."
+              />
 
-     <input id="name" name="name" placeholder="Your Name..." />
-     <input id="email" name="email" type="email" value=""
-     required placeholder="Your Email..."/>
+              <label for="message">Message: </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="10"
+                placeholder="Your detailed Message..."
+              ></textarea>
 
-     <label for="message">Message: </label>
-     <textarea id="message" name="message" rows="10"
-     placeholder="Your detailed Message..."></textarea>
+              <input
+                style="display:none;"
+                id="honeypot"
+                type="text"
+                name="honeypot"
+                value=""
+              />
 
-
-     <input style="display:none;" id="honeypot" type="text" name="honeypot"  value="" />
-
-   <button class="button">Send Email</button>
- </div>
- <div class="social">
-    <div class="icons">
-      <a href="https://www.linkedin.com/in/kasraniktash/" target="_blank"
-        ><i class="fab fa-linkedin fa-2x"></i
-      ></a>
-      <a href="https://github.com/Kasra-N" target="_blank"
-        ><i class="fab fa-github fa-2x"></i
-      ></a>
-    </div>
-  </div>
- <div class="thankyou_message" style="display:none;">
-   <h2><em>Thanks</em> for contacting us!
-     We will get back to you soon!</h2>
- </div>
-</form>
+              <button class="button">Send Email</button>
+            </div>
+            <div class="social">
+              <div class="icons">
+                <a
+                  href="https://www.linkedin.com/in/kasraniktash/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+                <a href="https://github.com/Kasra-N" target="_blank"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </div>
+            </div>
+            <div class="thankyou_message" style="display:none;">
+              <p>Message sent Successfully!</p>
+            </div>
+          </form>
         </div>
       </main>
-      <script data-cfasync="false" src="form-submission-handler.js"></script>
-      <script src="js/main.js"></script>
+    </div>
+    <script data-cfasync="false" src="./js/form-submission-handler.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

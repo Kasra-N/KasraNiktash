@@ -217,7 +217,6 @@ textarea {
   padding: 12px 20px;
   cursor: pointer;
   width: 100%;
-  transition: all 0.5s ease;
   border: none;
   border-bottom: 1px solid white;
 }
@@ -236,6 +235,14 @@ button {
 button:hover {
   color: rgb(95, 95, 95);
   transition: all 0.5s ease;
+}
+
+.thankyou_message {
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 650px) {
