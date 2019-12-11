@@ -199,29 +199,51 @@ main .icons a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem;
+/*Contact Form*/
+.contact-container {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 60%;
 }
-.boxes div {
-  font-size: 1.5rem;
-  border: 1px #fff solid;
-  padding: 1.5rem 2.5rem;
-  margin-bottom: 1rem;
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  background-color: #e4000000;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 100%;
   transition: all 0.5s ease;
-  border-radius: 8px;
+  border: none;
+  border-bottom: 1px solid white;
 }
-.boxes div:hover {
-  padding: 0.5rem 1.5rem;
-  background: #c50505;
-  color: #000;
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border: solid 1px #fff;
 }
-.boxes div:hover span {
-  color: #000;
+
+button:hover {
+  color: rgb(95, 95, 95);
+  transition: all 0.5s ease;
 }
+
+@media only screen and (max-width: 650px) {
+  .contact-container {
+    width: 100%;
+  }
+}
+
 #main-footer {
   background-color: rgba(37, 37, 37, 0.116);
   position: relative;
