@@ -16,7 +16,7 @@ List of things that need to be added in the future:
 
 ## Homepage:
 
-![Homepage](/Screenshots/home.png)
+![Homepage](/Screenshots/index.png)
 
 ## About:
 
