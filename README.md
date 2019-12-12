@@ -16,16 +16,16 @@ List of things that need to be added in the future:
 
 ## Homepage:
 
-![Homepage](/Images/home.png)
+![Homepage](/Screenshots/home.png)
 
 ## About:
 
-![About](/Images/about.png)
+![About](/Screenshots/about.png)
 
 ## Projects:
 
-![Project](/Images/projects.png)
+![Project](/Screenshots/projects.png)
 
 ## Contact:
 
-![Contact](/Images/contact.png)
+![Contact](/Screenshots/contact.png)
