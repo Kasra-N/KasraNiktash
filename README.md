@@ -8,7 +8,7 @@ Main functions of my portfolio website:
 * Display a main page with my name, information and social media
 * A bio section which gives a brief description of my past and achievements
 * A projects section which would display all of the past and current projects
-* A contact section where clients can directly access my social media and email me either via the form or their personal email app.
+* A contact section where visitors can directly access my social media and email me either via the cotnact form.
 
 List of things that need to be added in the future:
 
