@@ -63,9 +63,9 @@ a {
   font-size: 30rem;
 }
 
-.logo-check{
-    color: rgb(121, 121, 121);
-    font-size: 30rem;
+.logo-check {
+  color: rgb(121, 121, 121);
+  font-size: 30rem;
 }
 .thumbnail {
   padding: 0 0 15px 0;
@@ -205,8 +205,8 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-.linkedin{
-    font-size: 3rem;
+.linkedin {
+  font-size: 3rem;
 }
 
 .linkedin:hover {
@@ -215,8 +215,8 @@ a:hover {
   color: #0e76a8;
 }
 
-.github{
-    font-size: 3rem;
+.github {
+  font-size: 3rem;
 }
 .github:hover {
   transition: all 0.5s ease;
