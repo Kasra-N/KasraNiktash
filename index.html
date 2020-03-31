@@ -1,78 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    <title>Kasra Niktash - Software Developer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="Kasra Niktash - Full-Stack Web Developer."
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
     />
-    <meta name="robots" content="..., ..." />
-    <meta name="googlebot" content="..., ..." />
-    <meta name="google" content="nositelinkssearchbox" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/main.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC&display=swap"
       rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
     />
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
-    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
-    <title>Kasra Niktash</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="project.html">PROJECTS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        <div class="burger">
-          <div class="menu">Menu</div>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">KN</a>
         </div>
-      </nav>
-    </header>
-    <div class="wrapper">
-      <main id="home">
-        <div class="header">
-          <h1 class="lg-heading">
-            KASRA NIKTASH
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron text-center">
+      <h1 class="lg-heading">KASRA NIKTASH</h1>
+      <p>Web and Software Developer</p>
+    </div>
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8">
+          <h1>
+            About Me
           </h1>
-          <h2 class="sm-heading">
-            Software Developer & Web Designer
-          </h2>
+          <br />
+          <h4>
+            A focused software developer with strong foundation in web
+            development, and confident in various languages and technologies
+            such as HTML, CSS, Javascript, React, as well as back-end languages
+            and frameworks such as C# and .NET core.
+          </h4>
+          <br />
+          <p>
+            Skilled in identifying problems, recognizing the impact on the
+            business and users, and prioritizing the implementation of
+            appropriate solutions.
+          </p>
+          <p>
+            Eager to learn and implement new methods and technologies, stay
+            up-to-date with tools and trends.
+          </p>
         </div>
-
-        <div class="icons">
-          <a href="https://www.linkedin.com/in/kasraniktash/" target="_blank"
-            ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
-          <a href="https://github.com/Kasra-N" target="_blank"
-            ><i class="fab fa-github fa-2x"></i
-          ></a>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-sunglasses logo-glass slideanim"></span>
         </div>
-        <div class="type-writer">
-          <div class="banner-area">
-            <h2>
-              <a href="about.html#techs"> Skills: <span class="type"></span></a>
-            </h2>
+      </div>
+    </div>
+    <div id="skills" class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-check logo-check slideanim"></span>
+        </div>
+        <div class="col-sm-8">
+          <h1>
+            Relevant Skills
+          </h1>
+          <br />
+          <p>
+            <strong>Languages: </strong> HTML, CSS, Javascript, C#, PHP, Java
+          </p>
+          <p><strong>Frameworks:</strong> ASP.NET, Laravel, React.</p>
+          <p><strong>Databases:</strong> SQL, MySQL.</p>
+          <p>
+            <strong>Tools:</strong> Windows, Linux, Git, Visual Studio,
+            InjtelliJ, Atom, Vim.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Container (Portfolio Section) -->
+    <div id="portfolio" class="container-fluid text-center">
+      <h1 class="lg-heading">
+        Portfolio
+      </h1>
+      <br />
+      <h4>More content to be added soon...</h4>
+      <div class="row text-center slideanim">
+        <div class="container col-sm-4">
+          <p>SSD Website</p>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <div class="thumbnail">
+            <img src="./assets/projects/project1.jpg" alt="project 1" />
+            <a href="https://github.com/Kasra-N/SSD-Website">
+              Show Repository <i class="fab fa-github"></i
+            ></a>
           </div>
         </div>
-      </main>
+        <div class="col-sm-4">
+          <p><strong>Ticket Inventory API</strong></p>
+          <i class="devicon-csharp-plain colored"></i>
+          <i class="devicon-dot-net-plain colored"></i>
+          <div class="thumbnail">
+            <img src="./assets/projects/project2.png" alt="project 2" />
+            <a href="https://github.com/Kasra-N/TicketingAPI" target="_blank">
+              Show Repository <i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p><strong>iNews</strong></p>
+          <i class="devicon-react-original colored"></i>
+          <div class="thumbnail">
+            <img src="./assets/projects/project3.jpg" alt="prject 3" />
+            <a href="https://github.com/Kasra-N/PassionProject" target="_blank">
+              Show Repository <i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <script src="js/typed.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid text-center bg-grey">
+      <h1>
+        Contact Me
+      </h1>
+      <div class="contact-container">
+        <form
+          class="gform pure-form pure-form-stacked"
+          method="POST"
+          data-email="example@email.net"
+          action="https://script.google.com/macros/s/AKfycbycHo39GccdIy-2HmU05SdYV5fLl4otVmfdSPnSqFtc1_D_DUM/exec"
+        >
+          <div class="form-elements">
+            <input id="name" name="name" placeholder="Your Name..." />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              value=""
+              required
+              placeholder="Your Email..."
+            />
+            <label for="message">Message: </label>
+            <textarea
+              id="message"
+              name="message"
+              rows="10"
+              placeholder="Your detailed Message..."
+            ></textarea>
+            <input
+              style="display:none;"
+              id="honeypot"
+              type="text"
+              name="honeypot"
+              value=""
+            />
+            <button class="button">Send Email</button>
+          </div>
+          <div class="social">
+            <div class="icons">
+              <a
+                class="linkedin"
+                href="https://www.linkedin.com/in/kasraniktash/"
+                target="_blank"
+                ><i class="fab fa-linkedin fa-2x"></i
+              ></a>
+              <a
+                class="github"
+                href="https://github.com/Kasra-N"
+                target="_blank"
+                ><i class="fab fa-github fa-2x"></i
+              ></a>
+            </div>
+          </div>
+          <div class="thankyou_message" style="display:none;">
+            <p>Message sent Successfully!</p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>&copy; 2019 Kasra Niktash</p>
+    </footer>
+    <script data-cfasync="false" src="./form-submission-handler.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
