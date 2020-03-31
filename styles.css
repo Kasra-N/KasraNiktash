@@ -107,12 +107,17 @@ a {
 .navbar .navbar-brand {
   color: #fff !important;
 }
+
+.navbar-brand{
+  font-size: 3rem;
+}
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
   color: #000000 !important;
   background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
+  width: 45px;
   border-color: transparent;
   color: #fff !important;
 }
