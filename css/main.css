@@ -87,7 +87,12 @@ nav {
   font-weight: 300;
 }
 .type {
+  transition: transform .5s;
   color: #b90202;
+}
+
+.type:hover{
+  font-size: 4rem;
 }
 /*Type Writer END*/
 
