@@ -1,3 +1,3 @@
 # My-Portfolio
 
-## Can be visited at [Kniktash.com](https://kniktash.com/)
+## Can be visited at https://kasra-n.github.io/Kniktash
